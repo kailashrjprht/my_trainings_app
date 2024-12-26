@@ -70,7 +70,7 @@ class _FilterBottomSheetState extends State<FilterBottomSheet> {
 
   Widget _buildFilterCategories() {
     return SizedBox(
-      width: MediaQuery.of(context).size.width * 0.4,
+      width: 120.w,
       child: ListView.builder(
         itemCount: FilterType.values.length,
         itemBuilder: (context, index) {
